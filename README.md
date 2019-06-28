@@ -1,13 +1,18 @@
 # marketing-page
+LaVon Mejia marketing page for Key Conservation Organization and mobile iOS app
 
 ## hosting
+1. Netifly
 
 ## dependencies
 1. bootstrap 4.3 (CSS and Javascript library)
+2. tippy.js
+3. Google fonts
+4. w3Schools stylesheet
 
 ## todo
-- [x] Finalize style-guide and design system (Typography + Color Palette, other styling) - bootstrap
-- [x] Finalize wireframes for MVP (and link in readme)
+- [ ] Finalize style-guide and design system (Typography + Color Palette, other styling) - bootstrap
+- [ ] Finalize wireframes for MVP (and link in readme)
 - [ ] ****Marketing site including all pages fully responsive to Mobile and Desktop screen widths
 - [ ] ****Marketing "Login" call to action links user to the Deployed React app login screen
 All pages laid out all that's left for each page are styling tweaks
@@ -22,12 +27,12 @@ All pages laid out all that's left for each page are styling tweaks
     - [https://www.lipsum.com/](https://www.lipsum.com/)
 
 - [ ] All Project's file structures scaffolded and project architecture decided
-- Each project is deployed to Netlify or Heroku by end of day
+- [ ] Each project is deployed to Netlify  
 
- - Evaluate functionality of code in progress
- - Check for aesthetic consistency, style guide adherence
- - Stretch Goal: Conduct usability test on existing platform
- - Strong emphasis on bug fixes and UI/UX.
+ - [ ] Evaluate functionality of code in progress
+ - [ ] Check for aesthetic consistency, style guide adherence
+ - [ ] Stretch Goal: Conduct usability test on existing platform
+ - [ ] Strong emphasis on bug fixes and UI/UX.
 
 - **All Team Members -** Document your projects within the Readme files in their Github repositories. Without having to talk to you specifically, any developer should be able to install, contribute to, and run your project based on the descriptions found in your readme.
 - **UX**
