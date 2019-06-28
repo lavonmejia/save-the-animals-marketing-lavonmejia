@@ -282,6 +282,7 @@ h5 {
 
 .w3-bar-item .w3-button {
     display:none;
+    margin:auto;
 }
 
 #mission-box-1tabdesk {
@@ -311,7 +312,7 @@ h5 {
       }
 }
 
-.row .success-stories{
+.success-stories{
   @media @mobile {  
   display:none;
 }
@@ -661,95 +662,110 @@ padding:1rem;
 }
 
 
-  #xanderBio {
-    background-color: lightgrey;
-    padding: 2px;
-    display: none;
-    border:@seafoamgreen;
-@media @mobile {
-    padding:6px;
-}  
-}
+//   #xanderBio {
+//     background-color: lightgrey;
+//     padding: 2px;
+//     display: none;
+//     border:@seafoamgreen;
+// @media @mobile {
+//     padding:6px;
+// }  
+// }
 
     
-  #xanderID:hover + div {
-    display: block;
-  }
+//   #xanderID:hover + div {
+//     display: block;
+//   }
 
-  #lavonBio {
-    background-color: lightgrey;
-    padding: 2px;
-    display: none;
-    border:@seafoamgreen;
-    @media @mobile {
-        padding:6px;
-    }  
-  }
+//   #lavonBio {
+//     background-color: lightgrey;
+//     padding: 2px;
+//     display: none;
+//     border:@seafoamgreen;
+//     @media @mobile {
+//         padding:6px;
+//     }  
+//   }
     
-  #lavonID:hover + div {
-    display: block;
-  }  
+//   #lavonID:hover + div {
+//     display: block;
+//   }  
   
-  #seanBio {
-    background-color: lightgrey;
-    padding: 2px;
-    display: none;
-    border:@seafoamgreen;
-    @media @mobile {
-        padding:6px;
-    }  
-  }
+//   #seanBio {
+//     background-color: lightgrey;
+//     padding: 2px;
+//     display: none;
+//     border:@seafoamgreen;
+//     @media @mobile {
+//         padding:6px;
+//     }  
+//   }
     
-  #seanID:hover + div {
-    display: block;
-  }  
+//   #seanID:hover + div {
+//     display: block;
+//   }  
   
-  #mimiBio {
-    background-color: lightgrey;
-    padding: 2px;
-    display: none;
-    border:@seafoamgreen;
-    @media @mobile {
-        padding:6px;
-    }  
-  }
+//   #mimiBio {
+//     background-color: lightgrey;
+//     padding: 2px;
+//     display: none;
+//     border:@seafoamgreen;
+//     @media @mobile {
+//         padding:6px;
+//     }  
+//   }
     
-  #mimiID:hover + div {
-    display: block;
-  }  
+//   #mimiID:hover + div {
+//     display: block;
+//   }  
     
-  #alyssaID:hover + div {
-    display: block;
-  }  
+//   #alyssaID:hover + div {
+//     display: block;
+//   }  
   
-  #alyssaBio {
-    background-color: lightgrey;
-    padding: 2px;
-    display: none;
-    border:@seafoamgreen;
-    @media @mobile {
-        padding:6px;
-    }  
-  }
+//   #alyssaBio {
+//     background-color: lightgrey;
+//     padding: 2px;
+//     display: none;
+//     border:@seafoamgreen;
+//     @media @mobile {
+//         padding:6px;
+//     }  
+//   }
     
-  #blayrID:hover + div {
-    display: block;
-  }
-  #blayrBio {
-    background-color: lightgrey;
-    padding: 2px;
-    display: none;
-    border:@seafoamgreen;
-    @media @mobile {
-        padding:6px;
-    }  
-  }
+//   #blayrID:hover + div {
+//     display: block;
+//   }
+//   #blayrBio {
+//     background-color: lightgrey;
+//     padding: 2px;
+//     display: none;
+//     border:@seafoamgreen;
+//     @media @mobile {
+//         padding:6px;
+//     }  
+//   }
     
   
   // Zany Cre8
 
   @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
 
+.container1 {
+  // justify-content: center;
+  // text-align: center;
+  // display: flex;
+  flex-direction: column;
+  margin:auto;
+  // padding:200px;
+  border:4px solid pink;
+  // width:50%;
+}
+
+.col-md-4 {
+  margin:auto;
+  padding:0px;
+}
   .zanyBody {
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.5;
@@ -759,9 +775,13 @@ padding:1rem;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
+    border:4px solid #fc4445;
 }
 .heading-title {
-    margin-bottom: 100px;
+    margin-bottom: 90px;
+    border:4px solid pink;
+    border-radius: 12px;
+  background-color: #cafafe;
 }
 .text-center {
     text-align: center;
@@ -802,7 +822,7 @@ padding:1rem;
     bottom: 0;
     right: 0;
     margin: 0;
-    border: 20px solid rgba(0, 0, 0, 0.1);
+    border: 20px solid #3feee6;
     background-color: rgba(255, 255, 255, 0.90);
     opacity: 0;
     -webkit-transition: all 0.3s;
@@ -895,20 +915,35 @@ padding:1rem;
 
 // Mobile for Success
 .success-stories2 {
-  @media @mobile {
-      display:hide;
+    @media @tablet {
+    visibility: visible;
+    display:block;
   }
 }
 
 #success-story-12 {
   @media @mobile {
-      display:hide;
+visibility:visible;
+display:none;
   }
-}
+  @media @tablet {
+    display:none;
+  }
+  @media @desktop {
+    display: none;
+  }
+  }
+
 
 #success-story-22 {
 @media @mobile {
-    display:hide;
+    visibility: visible
+}
+@media @desktop {
+  display:none;
+}
+@media @tablet {
+  display:none;
 }
 }
 
@@ -920,3 +955,11 @@ padding:1rem;
     visibility: hidden;
 }
 }
+
+
+.w3-container .success {
+  @media @tablet{
+  display:none;
+}
+}
+
